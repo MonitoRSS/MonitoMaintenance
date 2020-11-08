@@ -38,7 +38,7 @@ class DeliveryRecord {
   static getRecordsWithBadPermissions(em: EntityManager) {
     return em.find(this, {
       comment: {
-        $re: 'Bad status code 403'
+        $re: '^Bad status code 403'
       }
     });
   }
