@@ -1,0 +1,38 @@
+{
+  "name": "monitorss-maintenance",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonitoRSS/MonitoMaintenance.git"
+  },
+  "author": "synzen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MonitoRSS/MonitoMaintenance/issues"
+  },
+  "homepage": "https://github.com/MonitoRSS/MonitoMaintenance#readme",
+  "engines": {
+    "node": ">=14.8.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.6.0",
+    "@typescript-eslint/parser": "^4.6.0",
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb-typescript": "^12.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "@mikro-orm/core": "^4.2.3",
+    "@mikro-orm/mongodb": "^4.2.3",
+    "zod": "^2.0.0-beta.20"
+  }
+}
